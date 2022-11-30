@@ -1,2 +1,1 @@
-
-npm init vite@latest
+npm init vite@latest cd *project-name* npm run dev
