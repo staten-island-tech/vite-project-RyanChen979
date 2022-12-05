@@ -3,7 +3,7 @@ import { setupCounter } from "./counter.js";
 
 document.querySelector("#app").innerHTML = `
   <div>
-    
+    <p>hello</p>
   </div>
 `;
 
