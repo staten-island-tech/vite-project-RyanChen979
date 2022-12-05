@@ -1,10 +1,11 @@
 import "../styles/style.css";
-import { setupCounter } from "./counter.js";
+// import { setupCounter } from "./counter.js";
+import "./items.js";
 
 document.querySelector("#app").innerHTML = `
   <div>
-    <p>hello</p>
+    <h1>${restaurant.name}</h1>
   </div>
 `;
 
-setupCounter(document.querySelector("#counter"));
+// setupCounter(document.querySelector("#counter"));
