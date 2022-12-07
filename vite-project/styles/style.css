@@ -34,7 +34,6 @@ a:hover {
 body {
   background-image: url("https://media1.phoenixnewtimes.com/phx/imager/u/original/13588726/pyro_at_the_grove_red_development_1_.jpg");
   background-size: cover;
-  filter: blur(5px);
   margin: 0;
   display: flex;
   place-items: center;
