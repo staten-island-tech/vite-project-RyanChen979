@@ -1,8 +1,5 @@
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
 
   --color: #2998ff;
   color-scheme: light dark;
@@ -33,11 +30,16 @@ a:hover {
 
 body {
   background-image: url("https://media1.phoenixnewtimes.com/phx/imager/u/original/13588726/pyro_at_the_grove_red_development_1_.jpg");
+  /*   background: linear-gradient(
+    to bottom,
+    rgb(231, 178, 78),
+    rgb(231, 178, 78),
+    75%
+  );
+  opacity: 0.3; */
   background-size: cover;
-  filter: linear-gradient(to right bottom, orange, orange);
   margin: 0;
-  display: flex;
-  place-items: center;
+  align-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -78,11 +80,21 @@ h6 {
   color: blue;
 }
 
-.card {
-  padding: 2em;
+#menu {
+  display: flex;
+  flex: wrap;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: blue;
 }
 
-button {
+.img {
+  height: 2rem;
+}
+
+/* button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -99,7 +111,7 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
 @media (prefers-color-scheme: light) {
   :root {
