@@ -34,6 +34,7 @@ a:hover {
 body {
   background-image: url("https://media1.phoenixnewtimes.com/phx/imager/u/original/13588726/pyro_at_the_grove_red_development_1_.jpg");
   background-size: cover;
+  filter: linear-gradient(to right bottom, orange, orange);
   margin: 0;
   display: flex;
   place-items: center;
@@ -43,7 +44,6 @@ body {
 
 h1 {
   font-size: var(--h1);
-  line-height: 1.1;
 }
 h2 {
   font-size: var(--h2);
@@ -70,11 +70,12 @@ h6 {
   text-align: center;
 }
 
-#app {
+#storeName {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  color: blue;
 }
 
 .card {
