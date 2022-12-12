@@ -1,9 +1,8 @@
 export const restaurant = {
   name: "Sushi",
-  img: "https://www.theyumlist.net/wp-content/uploads/2017/08/Sushi-Azabu.jpg",
+  img: "https://www.eatthis.com/wp-content/uploads/sites/4/2022/04/sushi-restaurant.jpg?quality=82&strip=1",
 };
-
-export const sashimi = [
+const sashimi = [
   {
     name: "Lean Blue Fin Tuna",
     img: "https://cdn.shopify.com/s/files/1/0258/4369/5662/products/Akami_3_x1200.progressive.jpg?v=1588204293",
@@ -11,7 +10,7 @@ export const sashimi = [
   },
   {
     name: "Seasonal Snapper",
-    img: "https://i0.wp.com/miyu.sg/wp-content/uploads/2019/11/Screenshot_20191110-125502_Instagram_mh1573361769712.jpg?resize=750%2C500&ssl=1",
+    img: "https://sushihanatulsa.com/wp-content/uploads/2020/08/SN-red-snapper-nigiri.jpg",
     price: "$11",
   },
   {
@@ -45,3 +44,4 @@ export const sashimi = [
     price: "$12",
   },
 ];
+export { sashimi };
