@@ -1,6 +1,6 @@
 export const restaurant = {
-  name: "Sushi",
-  img: "https://www.eatthis.com/wp-content/uploads/sites/4/2022/04/sushi-restaurant.jpg?quality=82&strip=1",
+  name: "New York Steakhouse",
+  img: "https://static.thehoneycombers.com/wp-content/uploads/sites/2/2022/07/Best-steaks-in-Singapore.png",
 };
 const sashimi = [
   {
