@@ -20,8 +20,8 @@ function sashimiList() {
     DOM.menu.insertAdjacentHTML(
       "afterbegin",
       `<div >
-      <h3 class="name">${sashimi.name}</h3>
-      <img class="img" src="${sashimi.img}"></img>
+      <h4 class="name">${sashimi.name}</h4>
+      <img class="food-imgs" src="${sashimi.img}"></img>
       </div>`
     );
   });

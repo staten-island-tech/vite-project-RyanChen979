@@ -35,7 +35,7 @@ body {
   min-height: 100vh;
 }
 
-.background-img {
+.bgImage {
   background-image: linear-gradient(
       to right bottom,
       rgba(192, 192, 192, 0.35),
@@ -114,8 +114,8 @@ h6 {
   padding: 2rem;
 }
 
-.img {
-  height: 9rem;
+.food-imgs {
+  height: 8rem;
 }
 
 .button {
