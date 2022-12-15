@@ -90,12 +90,12 @@ h6 {
   margin: 2rem;
 }
 
-.button {
+/* .button {
   font-size: 2rem;
   border-radius: 20px;
   padding: 1rem;
   width: 12%;
-}
+} */
 
 #menu {
   display: flex;
@@ -118,15 +118,12 @@ h6 {
   height: 8rem;
 }
 
-.button {
-  border-radius: ;
-}
-
-/* button {
+button {
   border-radius: 8px;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
+  width: 15%;
   padding: 0.6em 1.2em;
-  font-size: 1em;
+  font-size: 1.25rem;
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
@@ -139,7 +136,7 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-} */
+}
 
 @media (prefers-color-scheme: light) {
   :root {
