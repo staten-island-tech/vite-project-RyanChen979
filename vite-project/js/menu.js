@@ -5,14 +5,14 @@ export const restaurant = {
 
 const lunch = [
   {
-    name: "Lean Blue Fin Tuna",
-    img: "https://cdn.shopify.com/s/files/1/0258/4369/5662/products/Akami_3_x1200.progressive.jpg?v=1588204293",
-    price: "$11",
+    name: "Fresh Oysters",
+    img: "https://www.yummymummykitchen.com/wp-content/uploads/2022/03/oysters-09-540x720.jpg",
+    price: "$28.00",
   },
   {
-    name: "Seasonal Snapper",
-    img: "https://sushihanatulsa.com/wp-content/uploads/2020/08/SN-red-snapper-nigiri.jpg",
-    price: "$11",
+    name: "Chilled Seafood Tray",
+    img: "https://img.taste.com.au/lUd0r8vr/taste/2016/11/cold-seafood-platter-90608-2.jpeg",
+    price: "$65.00",
   },
   {
     name: "Fresh Water Eel",
@@ -45,6 +45,7 @@ const lunch = [
     price: "$12",
   },
 ];
+export { lunch };
 
 const dinner = [
   {
@@ -88,6 +89,7 @@ const dinner = [
     price: "$12",
   },
 ];
+export { dinner };
 
 const dessert = [
   {
@@ -131,4 +133,4 @@ const dessert = [
     price: "$12",
   },
 ];
-export { lunch, dinner, dessert };
+export { dessert };

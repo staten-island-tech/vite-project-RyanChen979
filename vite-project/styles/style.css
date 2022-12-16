@@ -90,17 +90,10 @@ h6 {
   margin: 2rem;
 }
 
-/* .button {
-  font-size: 2rem;
-  border-radius: 20px;
-  padding: 1rem;
-  width: 12%;
-} */
-
 #menu {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   justify-content: space-evenly;
   width: 75vw;
   margin: 0 auto;
@@ -115,7 +108,7 @@ h6 {
 }
 
 .food-imgs {
-  height: 8rem;
+  width: 15rem;
 }
 
 button {
