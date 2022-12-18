@@ -6,8 +6,9 @@ export const restaurant = {
 const lunch = [
   {
     name: "Fresh Oysters",
-    img: "https://www.yummymummykitchen.com/wp-content/uploads/2022/03/oysters-09-540x720.jpg",
+    img: "https://www.elementseafood.com/wp-content/uploads/2016/04/Styled-07-1100x530.jpg",
     price: "$28.00",
+    type: `seafood`,
   },
   {
     name: "Chilled Seafood Tray",
@@ -15,34 +16,34 @@ const lunch = [
     price: "$65.00",
   },
   {
-    name: "Fresh Water Eel",
-    img: "https://ichisushi.com/wp-content/uploads/2022/04/Best-Eel-Sushi-Recipes.jpg",
-    price: "$11",
+    name: "Fried Jumbo Shrimp",
+    img: "https://copykat.com/wp-content/uploads/2021/02/Mortons-Shrimp-Alexander-Photo.jpg",
+    price: "$18.00",
   },
   {
-    name: "Jumbo Sweet Shrimp",
-    img: "http://www.oksfood.com/image/nigiri_amaebi.jpg",
-    price: "$12",
+    name: "Porterhouse",
+    img: "https://assets.bonappetit.com/photos/57ad5452f1c801a1038bcb97/1:1/w_2560%2Cc_limit/perfect-porterhouse-steak.jpg",
+    price: "$66.00/person",
   },
   {
-    name: "Torched Salmon",
-    img: "https://www.foodrepublic.com/wp-content/uploads/2014/07/blowtorchsalmon.jpg",
-    price: "$11",
+    name: "Lamb Chops - two doubles",
+    img: "https://lafianna.com/wp-content/uploads/2022/02/1-2.jpg",
+    price: "$52.00",
   },
   {
-    name: "Salmon Roe",
-    img: "https://cdn-prod.medicalnewstoday.com/content/images/articles/325/325225/tobiko-fish-roe-in-restaurant.jpg",
-    price: "$13",
+    name: "",
+    img: "",
+    price: "$",
   },
   {
-    name: "Torched Wagyu Beef",
-    img: "https://cdn.shopify.com/s/files/1/0261/9123/3121/articles/Niku_Sushi.jpg?v=1598630269",
-    price: "$17",
+    name: "",
+    img: "",
+    price: "$",
   },
   {
-    name: "Striped Jack",
-    img: "https://www.sen-ryo.com.hk/upload/template_osusume_details/118/20170210-sen-ryo4327go-sum-copy-lores.jpg",
-    price: "$12",
+    name: "",
+    img: "",
+    price: "$",
   },
 ];
 export { lunch };
