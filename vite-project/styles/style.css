@@ -22,7 +22,7 @@
 .cool {
   --primary: #add8e6;
   --secondary: #00008b;
-  --title: ;
+  --title: #a020f0;
 }
 
 .warm {
@@ -106,26 +106,26 @@ h6 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap-reverse;
-  justify-content: space-evenly;
-  width: 75vw;
+  justify-content: space-between;
+  width: 80vw;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
 .items {
-  width: 20%;
+  width: 18%;
 }
 
 .name {
   background-color: var(--secondary);
-  color: rgba(250, 250, 250, 0.9);
-  padding: 2rem;
+  color: white;
+  padding: 1.5rem;
   margin: 3rem 0 0 0;
 }
 
 .food-imgs {
-  width: 17.5rem;
+  width: 16.9rem;
   margin: 0;
 }
 

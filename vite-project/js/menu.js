@@ -11,9 +11,9 @@ const lunch = [
     type: `seafood`,
   },
   {
-    name: "Chilled Seafood Tray",
-    img: "https://img.taste.com.au/lUd0r8vr/taste/2016/11/cold-seafood-platter-90608-2.jpeg",
-    price: "$65.00",
+    name: "",
+    img: "",
+    price: "$",
   },
   {
     name: "Fried Jumbo Shrimp",
@@ -31,14 +31,14 @@ const lunch = [
     price: "$52.00",
   },
   {
-    name: "",
-    img: "",
-    price: "$",
+    name: "Baked Potatoes",
+    img: "https://thekitchenarium.com/wp-content/uploads/2014/02/bakedpot-1024x682.jpg",
+    price: "$10",
   },
   {
-    name: "",
-    img: "",
-    price: "$",
+    name: "Steak Salad",
+    img: "https://fitfoodiefinds.com/wp-content/uploads/2021/04/steak-salad-5-1365x2048-1.jpg",
+    price: "$28",
   },
   {
     name: "",
@@ -50,87 +50,72 @@ export { lunch };
 
 const dinner = [
   {
-    name: "Skirt Steak",
-    img: "https://i2.wp.com/shewearsmanyhats.com/wp-content/uploads/2011/06/skirt-steak-featuredb.jpg",
-    price: "$40",
+    name: "Chilled Seafood Tray",
+    img: "https://img.taste.com.au/lUd0r8vr/taste/2016/11/cold-seafood-platter-90608-2.jpeg",
+    price: "$65.00",
   },
   {
-    name: "Seasonal Snapper",
-    img: "https://sushihanatulsa.com/wp-content/uploads/2020/08/SN-red-snapper-nigiri.jpg",
-    price: "$11",
+    name: "",
+    img: "",
+    price: "$",
   },
   {
-    name: "Fresh Water Eel",
-    img: "https://ichisushi.com/wp-content/uploads/2022/04/Best-Eel-Sushi-Recipes.jpg",
-    price: "$11",
+    name: "",
+    img: "",
+    price: "$",
   },
   {
-    name: "Jumbo Sweet Shrimp",
-    img: "http://www.oksfood.com/image/nigiri_amaebi.jpg",
-    price: "$12",
+    name: "",
+    img: "",
+    price: "$",
   },
   {
-    name: "Torched Salmon",
-    img: "https://www.foodrepublic.com/wp-content/uploads/2014/07/blowtorchsalmon.jpg",
-    price: "$11",
+    name: "",
+    img: "",
+    price: "$",
   },
   {
-    name: "Salmon Roe",
-    img: "https://cdn-prod.medicalnewstoday.com/content/images/articles/325/325225/tobiko-fish-roe-in-restaurant.jpg",
-    price: "$13",
+    name: "",
+    img: "",
+    price: "$",
   },
   {
-    name: "Torched Wagyu Beef",
-    img: "https://cdn.shopify.com/s/files/1/0261/9123/3121/articles/Niku_Sushi.jpg?v=1598630269",
-    price: "$17",
+    name: "",
+    img: "",
+    price: "$",
   },
   {
-    name: "Striped Jack",
-    img: "https://www.sen-ryo.com.hk/upload/template_osusume_details/118/20170210-sen-ryo4327go-sum-copy-lores.jpg",
-    price: "$12",
+    name: "",
+    img: "",
+    price: "$",
   },
 ];
 export { dinner };
 
 const dessert = [
   {
-    name: "Lean Blue Fin Tuna",
-    img: "https://cdn.shopify.com/s/files/1/0258/4369/5662/products/Akami_3_x1200.progressive.jpg?v=1588204293",
-    price: "$11",
-  },
-  {
-    name: "Seasonal Snapper",
-    img: "https://sushihanatulsa.com/wp-content/uploads/2020/08/SN-red-snapper-nigiri.jpg",
-    price: "$11",
-  },
-  {
-    name: "Fresh Water Eel",
-    img: "https://ichisushi.com/wp-content/uploads/2022/04/Best-Eel-Sushi-Recipes.jpg",
-    price: "$11",
-  },
-  {
-    name: "Jumbo Sweet Shrimp",
-    img: "http://www.oksfood.com/image/nigiri_amaebi.jpg",
+    name: "Chocolate Layer Cake",
+    img: "https://bigseventravel.com/wp-content/uploads/2019/06/st.jpg",
     price: "$12",
   },
   {
-    name: "Torched Salmon",
-    img: "https://www.foodrepublic.com/wp-content/uploads/2014/07/blowtorchsalmon.jpg",
-    price: "$11",
+    name: "NY Cheesecake",
+    img: "https://static01.nyt.com/images/2021/11/02/dining/dg-Tall-and-Creamy-Cheesecake/dg-Tall-and-Creamy-Cheesecake-articleLarge.jpg",
+    price: "$12",
   },
   {
-    name: "Salmon Roe",
-    img: "https://cdn-prod.medicalnewstoday.com/content/images/articles/325/325225/tobiko-fish-roe-in-restaurant.jpg",
-    price: "$13",
+    name: "Key Lime Pie",
+    img: "https://parade.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkyNjgxMzE4MzY1MTQ0MjY0/key-lime-pie.jpg",
+    price: "$12",
   },
   {
-    name: "Torched Wagyu Beef",
-    img: "https://cdn.shopify.com/s/files/1/0261/9123/3121/articles/Niku_Sushi.jpg?v=1598630269",
-    price: "$17",
+    name: "Banana Split",
+    img: "https://media-cdn.tripadvisor.com/media/photo-s/15/10/91/5b/banana-split.jpg",
+    price: "$12",
   },
   {
-    name: "Striped Jack",
-    img: "https://www.sen-ryo.com.hk/upload/template_osusume_details/118/20170210-sen-ryo4327go-sum-copy-lores.jpg",
+    name: "Ice Cream and Sorbet",
+    img: "https://www.thespruceeats.com/thmb/Bxo9aopDT5ALAUs1IjrWSKODetc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/basic-fruit-sorbets-recipe-4108541-hero-01-4a3ade7f2a88477d90fbfd6cd7b5dcc6.jpg",
     price: "$12",
   },
 ];

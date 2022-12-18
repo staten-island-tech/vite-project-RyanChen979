@@ -14,9 +14,18 @@ document.querySelector(
   "#storeName"
 ).innerHTML = `<h1 id="title">${restaurant.name}</h1>`;
 
+lunch.forEach((el) => {
+  console.log(`Name: ${el.name}; Price: ${el.price}`);
+});
+dinner.forEach((el) => {
+  console.log(`Name: ${el.name}; Price: ${el.price}`);
+});
+dessert.forEach((el) => {
+  console.log(`Name: ${el.name}; Price: ${el.price}`);
+});
+
 function lunchItems() {
   lunch.forEach((el) => {
-    console.log(`Name: ${el.name}; Price: ${el.price}`);
     DOM.menu.insertAdjacentHTML(
       "afterbegin",
       `<div class="items">
@@ -31,7 +40,6 @@ lunchItems();
 
 function dinnerItems() {
   dinner.forEach((el) => {
-    console.log(`Name: ${el.name}; Price: ${el.price}`);
     DOM.menu.insertAdjacentHTML(
       "afterbegin",
       `<div class="items">
@@ -45,8 +53,7 @@ function dinnerItems() {
 dinnerItems();
 
 function dessertItems() {
-  dinner.forEach((el) => {
-    console.log(`Name: ${el.name}; Price: ${el.price}`);
+  dessert.forEach((el) => {
     DOM.menu.insertAdjacentHTML(
       "afterbegin",
       `<div class="items">
@@ -59,36 +66,28 @@ function dessertItems() {
 }
 dessertItems();
 
-/* DOM.lunchMenu.addEventListener("click", function () {
-  if (DOM.menu.classList.contains("lunch")) {
+DOM.themeButton.addEventListener("click", function () {
+  if (document.body.classList.contains("cool")) {
+    document.body.classList.remove("cool");
+    document.body.classList.add("warm");
   } else {
-    DOM.menu = "";
-    DOM.menu.classList.remove("dinnerItems", "desserItems");
-    DOM.menu.classList.add("lunchItems");
-    lunchItems();
-  }
-}); */
-
-DOM.querySelector(".theme").addEventListener("click", function () {
-  if (DOM.body.classList.contains("cool")) {
-    DOM.body.classList.remove("cool");
-    DOM.body.classList.add("warm");
-  } else {
-    DOM.body.classList.remove("warm");
-    DOM.body.classList.add("cool");
+    document.body.classList.remove("warm");
+    document.body.classList.add("cool");
   }
 });
 
-DOM.querySelector(".lunch").addEventListener("click", function () {
+DOM.lunchButton.addEventListener("click", function () {
   if (DOM.menu.classList.contains("all")) {
-    DOM.body.classList.remove("dinner");
-    DOM.body.classList.remove("dessert");
-    DOM.body.classList.add("lunch");
+    DOM.menu = "";
+    DOM.menu.classList.remove("dinner");
+    DOM.menu.classList.remove("dessert");
+    DOM.menu.classList.add("lunch");
     lunchItems();
   } else {
-    DOM.body.classList.remove("dinner");
-    DOM.body.classList.remove("dessert");
-    DOM.body.classList.add("lunch");
+    DOM.menu = "";
+    DOM.menu.classList.remove("dinner");
+    DOM.menu.classList.remove("dessert");
+    DOM.menu.classList.add("lunch");
     lunchItems();
   }
 });

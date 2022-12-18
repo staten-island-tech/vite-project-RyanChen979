@@ -1,8 +1,10 @@
 const DOM = {
+  themeButton: document.querySelector(".theme-button"),
+
   menu: document.querySelector("#menu"),
-  lunchMenu: document.getElementsByClassName("lunch-button"),
-  dinnerMenu: document.getElementsByClassName("dinner-button"),
-  dessertMenu: document.getElementsByClassName("dessert-button"),
+  lunchButton: document.querySelector(".lunch-button"),
+  dinnerButton: document.querySelector(".dinner-button"),
+  dessertButton: document.querySelector(".dessert-button"),
 };
 
 export { DOM };
