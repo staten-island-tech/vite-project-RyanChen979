@@ -78,13 +78,10 @@ DOM.themeButton.addEventListener("click", function () {
 
 DOM.lunchButton.addEventListener("click", function () {
   if (DOM.menu.classList.contains("all")) {
-    DOM.menu = "";
-    DOM.menu.classList.remove("dinner");
-    DOM.menu.classList.remove("dessert");
+    DOM.menu.classList.remove("all");
     DOM.menu.classList.add("lunch");
     lunchItems();
   } else {
-    DOM.menu = "";
     DOM.menu.classList.remove("dinner");
     DOM.menu.classList.remove("dessert");
     DOM.menu.classList.add("lunch");

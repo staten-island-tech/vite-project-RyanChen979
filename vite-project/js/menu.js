@@ -5,22 +5,6 @@ export const restaurant = {
 
 const lunch = [
   {
-    name: "Fresh Oysters",
-    img: "https://www.elementseafood.com/wp-content/uploads/2016/04/Styled-07-1100x530.jpg",
-    price: "$28.00",
-    type: `seafood`,
-  },
-  {
-    name: "",
-    img: "",
-    price: "$",
-  },
-  {
-    name: "Fried Jumbo Shrimp",
-    img: "https://copykat.com/wp-content/uploads/2021/02/Mortons-Shrimp-Alexander-Photo.jpg",
-    price: "$18.00",
-  },
-  {
     name: "Porterhouse",
     img: "https://assets.bonappetit.com/photos/57ad5452f1c801a1038bcb97/1:1/w_2560%2Cc_limit/perfect-porterhouse-steak.jpg",
     price: "$66.00/person",
@@ -39,6 +23,21 @@ const lunch = [
     name: "Steak Salad",
     img: "https://fitfoodiefinds.com/wp-content/uploads/2021/04/steak-salad-5-1365x2048-1.jpg",
     price: "$28",
+  },
+  {
+    name: "Fried Jumbo Shrimp",
+    img: "https://copykat.com/wp-content/uploads/2021/02/Mortons-Shrimp-Alexander-Photo.jpg",
+    price: "$18.00",
+  },
+  {
+    name: "Steak Tartare",
+    img: "https://www.aspicyperspective.com/wp-content/uploads/2021/05/steak-tartare-recipe-22.jpg",
+    price: "$18.00",
+  },
+  {
+    name: "Jumbo Shrimp Cocktail",
+    img: "https://twokooksinthekitchen.com/wp-content/uploads/2021/09/IMG_8391-5-500x375.jpg",
+    price: "$27.00",
   },
   {
     name: "",
