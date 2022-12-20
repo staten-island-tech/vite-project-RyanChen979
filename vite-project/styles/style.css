@@ -20,14 +20,12 @@
   --primary: #add8e6bf;
   --secondary: #00008bbf;
   --words: #00008b;
-  --title: #a020f0;
 }
 
 .warm {
   --primary: #ffc0cb;
-  --secondary: #8b0000bf;
+  --secondary: #a020f0bf;
   --words: #8b0000;
-  --title: #ffa500;
 }
 
 a {
@@ -89,7 +87,7 @@ h6 {
   margin: 0 auto;
   padding: 0.1rem;
   text-align: center;
-  color: var(--title);
+  color: red;
   background-color: rgba(0, 0, 0, 0.75);
 }
 
