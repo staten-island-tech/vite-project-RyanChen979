@@ -25,7 +25,7 @@ dessert.forEach((el) => {
 });
 
 function lunchItems() {
-  lunch.forEach((el) => {
+  lunch.map((el) => {
     DOM.menu.insertAdjacentHTML(
       "afterbegin",
       `<div class="items">
@@ -36,10 +36,9 @@ function lunchItems() {
     );
   });
 }
-lunchItems();
 
 function dinnerItems() {
-  dinner.forEach((el) => {
+  dinner.map((el) => {
     DOM.menu.insertAdjacentHTML(
       "afterbegin",
       `<div class="items">
@@ -50,10 +49,9 @@ function dinnerItems() {
     );
   });
 }
-dinnerItems();
 
 function dessertItems() {
-  dessert.forEach((el) => {
+  dessert.map((el) => {
     DOM.menu.insertAdjacentHTML(
       "afterbegin",
       `<div class="items">
@@ -64,7 +62,13 @@ function dessertItems() {
     );
   });
 }
-dessertItems();
+
+function allItems() {
+  lunchItems();
+  dessertItems();
+  dinnerItems();
+}
+allItems();
 
 DOM.themeButton.addEventListener("click", function () {
   if (document.body.classList.contains("cool")) {
@@ -76,12 +80,42 @@ DOM.themeButton.addEventListener("click", function () {
   }
 });
 
+DOM.allButton.addEventListener("click", function () {
+  if (DOM.menu.classList.contains("all")) {
+  } else {
+    DOM.menu.innerHTML = "";
+    DOM.menu.classList.remove("lunch", "dinner", "dessert");
+    DOM.menu.classList.add("all");
+    allItems();
+  }
+});
+
 DOM.lunchButton.addEventListener("click", function () {
   if (DOM.menu.classList.contains("lunch")) {
   } else {
     DOM.menu.innerHTML = "";
-    DOM.menu.classList.remove("dinner", "dessert");
+    DOM.menu.classList.remove("all", "dinner", "dessert");
     DOM.menu.classList.add("lunch");
     lunchItems();
+  }
+});
+
+DOM.dinnerButton.addEventListener("click", function () {
+  if (DOM.menu.classList.contains("dinner")) {
+  } else {
+    DOM.menu.innerHTML = "";
+    DOM.menu.classList.remove("all", "lunch", "dessert");
+    DOM.menu.classList.add("dinner");
+    dinnerItems();
+  }
+});
+
+DOM.dessertButton.addEventListener("click", function () {
+  if (DOM.menu.classList.contains("dessert")) {
+  } else {
+    DOM.menu.innerHTML = "";
+    DOM.menu.classList.remove("all", "dinner", "lunch");
+    DOM.menu.classList.add("dessert");
+    dessertItems();
   }
 });

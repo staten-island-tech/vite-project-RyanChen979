@@ -1,9 +1,6 @@
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
 
-  --light-blue: #2998ff;
-  color-scheme: light dark;
-  color: black;
   background-color: white;
 
   font-synthesis: none;
@@ -20,14 +17,16 @@
 }
 
 .cool {
-  --primary: #add8e6;
-  --secondary: #00008b;
+  --primary: #add8e6bf;
+  --secondary: #00008bbf;
+  --words: #00008b;
   --title: #a020f0;
 }
 
 .warm {
   --primary: #ffc0cb;
-  --secondary: #8b0000;
+  --secondary: #8b0000bf;
+  --words: #8b0000;
   --title: #ffa500;
 }
 
@@ -113,6 +112,15 @@ h6 {
   text-align: center;
 }
 
+.lunch,
+.dinner,
+.dessert {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: start;
+}
+
 .items {
   width: 18%;
 }
@@ -130,14 +138,14 @@ h6 {
 }
 
 .price {
-  color: var(--secondary);
+  color: var(--words);
   background-color: var(--primary);
   margin: 0;
   padding: 1rem;
 }
 
 button {
-  color: var(--primary);
+  color: white;
   background-color: var(--secondary);
   border-radius: 8px;
   border: 2px solid transparent;
